@@ -36,6 +36,9 @@
       font-size: 1.6rem;
       margin-bottom: 20px;
     }
+    h3 {
+      margin-top: 0;
+    }
     .box {
       background: #fff;
       padding: 30px;
@@ -51,8 +54,10 @@
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 20px;
     }
-    .price .box h3 {
-      margin-top: 0;
+    .note {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 10px;
     }
     footer {
       text-align: center;
@@ -118,54 +123,44 @@
       <li>スプレッドシート業務の自動化・整理</li>
       <li>受注管理・請求・給与明細の仕組み化</li>
       <li>Google Apps Script（GAS）を使った業務改善</li>
+      <li>ChatGPT / Gemini などAIを無理なく組み込む業務効率化</li>
       <li>運用を前提とした継続サポート</li>
-      <li>ChatGPT / Gemini などのAIを、実務に無理なく組み込む業務効率化</li>
     </ul>
   </div>
 </section>
 
 <section>
   <h2>改善プロジェクト例（進行中）</h2>
-
   <div class="box">
-    <p>
-      FAX・紙・手作業中心だった業務を、<br>
-      Google環境を活用したWebアプリに再設計しました。
-    </p>
+    <h3>小規模斡旋業｜受注〜請求・給与管理の自動化</h3>
 
-    <h3>Before｜導入前</h3>
+    <strong>Before｜導入前</strong>
     <ul>
       <li>受注はすべてFAXで管理</li>
       <li>司会者アサインを手書きで記入</li>
       <li>報告書を印刷し、紙で保管</li>
       <li>月末にExcelで請求書・給与明細を個別作成</li>
       <li>確認・転記ミスが発生しやすい状態</li>
+      <li>月間作業時間：約20時間</li>
     </ul>
-    <p><strong>月間作業時間：約20時間</strong></p>
 
-    <hr style="margin:30px 0;">
-
-    <h3>After｜導入後</h3>
+    <strong>After｜導入後（進行中）</strong>
     <ul>
       <li>受注をWebアプリで一元管理</li>
-      <li>司会者・報告書・請求データを紐づけ</li>
-      <li>請求・給与データを自動生成</li>
+      <li>司会者・報告書・請求データを自動で紐づけ</li>
+      <li>請求書・給与明細を自動生成</li>
       <li>紙・FAX・手入力を大幅削減</li>
+      <li>月間作業時間：約2時間</li>
     </ul>
-    <p><strong>月間作業時間：約2時間</strong></p>
 
-    <p style="margin-top:20px;">
-      <strong>高額なサーバー契約や、使われない機能への投資は不要。</strong><br>
-      小規模な現場でも、無理なく運用できる設計を重視しています。
-    </p>
-
-    <p style="font-size:0.9rem; color:#666; margin-top:15px;">
-      ※ 本プロジェクトは現在一部運用中。<br>
-      実運用を行いながら段階的に機能拡張を進めています。
+    <p class="note">
+      ※ Google Apps Script（GAS）を中心に構築。<br>
+      高額なサーバー契約や、使われない多機能システムは使用していません。<br>
+      ※ 本プロジェクトは現在一部運用中で、段階的に機能拡張を進めています。
     </p>
   </div>
 </section>
-  
+
 <section>
   <h2>料金プラン</h2>
   <div class="price">
@@ -174,7 +169,7 @@
       <p>
         <strong>10万〜30万円（税別）</strong><br>
         業務整理・設計・開発・導入までを含みます。<br>
-        ※内容・規模によりお見積り
+        ※ 内容・規模によりお見積り
       </p>
     </div>
     <div class="box">
@@ -200,47 +195,13 @@
   </div>
 </section>
 
-<section>
-  <h2>改善プロジェクト例（進行中）</h2>
-  <div class="box">
-    <h3>小規模斡旋業｜受注〜請求・給与管理の自動化</h3>
-
-    <p><strong>Before</strong></p>
-    <ul>
-      <li>FAXで受注、紙とExcelで管理</li>
-      <li>報告書とFAXを目視で突合</li>
-      <li>請求書・給与明細を1件ずつ手作業作成</li>
-      <li>管理業務に月20時間以上</li>
-    </ul>
-
-    <p><strong>After（進行中）</strong></p>
-    <ul>
-      <li>受注・報告をWebで一元管理</li>
-      <li>確認作業のみで請求書・給与明細を自動生成</li>
-      <li>紙・FAX中心の運用から段階的に移行</li>
-      <li>管理業務を約2時間に短縮</li>
-    </ul>
-
-    <p>
-      <small>
-        ※ Google Apps Script（GAS）を中心に構築。<br>
-        高額なサーバー契約や、使われない多機能システムは使用していません。
-      </small>
-    </p>
-  </div>
-</section>
-  
 <section class="contact">
   <h2>まずはご相談ください</h2>
   <p>
     「こんなことできる？」からで大丈夫です。<br>
     無理な提案はしません。
   </p>
-  <a href="https://forms.gle/uuQRELg3B9FdBNAz9"
-   class="contact-button"
-   target="_blank">
-  お問い合わせ
-</a>
+  <a href="https://forms.gle/PKYwooNnsmTuLdVJ7">お問い合わせ</a>
 </section>
 
 <footer>
