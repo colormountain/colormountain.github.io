@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>Color Mountain｜業務基幹システム設計・開発</title>
+<title>Color Mountain｜経営者のための業務設計</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {
@@ -36,9 +36,6 @@ h2 {
 font-size: 1.6rem;
 margin-bottom: 20px;
 }
-h3 {
-margin-top: 0;
-}
 .box {
 background: #fff;
 padding: 30px;
@@ -50,9 +47,9 @@ ul {
 padding-left: 20px;
 }
 .price {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-gap: 20px;
+font-size: 1.2rem;
+font-weight: bold;
+margin-top: 20px;
 }
 .note {
 font-size: 0.9rem;
@@ -83,36 +80,27 @@ margin-top: 20px;
 <body>
 
 <header>
-  <h1>業務を、動く仕組みに変える。</h1>
+  <h1>経営者が、本業に集中できる環境をつくる。</h1>
   <p>
-    紙・FAX・属人管理から脱却し、<br>
-    業務全体を一つのシステムとして再設計。<br>
-    Google Workspaceを基盤に、完全サーバーレスで構築します。
+    分断された業務、属人化した管理、繰り返される手作業。<br>
+    それらを整理し、仕組みとして回る状態を設計・構築します。
   </p>
 </header>
 
 <section>
-  <h2>提供サービス</h2>
+  <h2>提供内容</h2>
 
   <div class="box">
-    <h3>業務基幹システム設計・開発</h3>
-    <p>
-      現場ヒアリングから業務フローを分解し、<br>
-      日報・受注・シフト・請求・報酬までを統合する
-      オーダーメイドの業務システムを構築します。
-    </p>
-
+    <h3>業務の整理と仕組み化</h3>
     <ul>
-      <li>業務要件整理・データ設計</li>
-      <li>ReactベースのSPA開発</li>
-      <li>Google Apps Scriptによるバックエンド構築</li>
-      <li>Google Sheetsを用いたDB設計</li>
-      <li>AI（Gemini）統合による業務自動化</li>
-      <li>本番／開発環境分離・自動バックアップ設計</li>
+      <li>業務フローの可視化・再設計</li>
+      <li>受注・日報・シフト・請求の一元管理</li>
+      <li>手入力・転記作業の削減</li>
+      <li>報酬計算の自動化</li>
+      <li>Google Workspaceを活用した仕組み構築</li>
     </ul>
-
     <p class="note">
-      単なるツール導入ではなく、「事業の基盤」を構築します。
+      既製品を当てはめるのではなく、現場に合わせて設計します。
     </p>
   </div>
 </section>
@@ -121,48 +109,45 @@ margin-top: 20px;
   <h2>導入事例</h2>
 
   <div class="box">
-    <h3>葬儀司会業向け 業務基幹システム開発</h3>
+    <h3>葬儀司会業向け 業務基幹システム構築</h3>
 
-    <p><strong>背景</strong></p>
+    <p><strong>課題</strong></p>
     <ul>
-      <li>FAX受注票を手入力</li>
-      <li>日報・シフト・請求が分断管理</li>
+      <li>FAX受注を手入力で管理</li>
+      <li>日報・シフト・請求が分断</li>
       <li>報酬計算を手作業で実施</li>
-      <li>転記ミスと二重入力が常態化</li>
+      <li>転記ミスと確認作業が増大</li>
     </ul>
 
-    <p><strong>実装内容</strong></p>
+    <p><strong>改善内容</strong></p>
     <ul>
-      <li>React + GASによるSPA業務アプリ構築</li>
-      <li>Gemini APIを用いたAI-OCR自動登録</li>
-      <li>案件・シフト・請求・報酬の統合管理</li>
-      <li>複雑な報酬ロジックの自動計算</li>
-      <li>RBACによる権限制御</li>
-      <li>Google Driveへの自動バックアップ</li>
+      <li>受注から請求までを一元管理</li>
+      <li>AI活用による受注データ自動登録</li>
+      <li>報酬計算ロジックの自動化</li>
+      <li>12名が日常利用する仕組みとして定着</li>
     </ul>
 
     <p><strong>成果</strong></p>
     <ul>
       <li>月18時間の業務削減（年間240時間）</li>
-      <li>転記ミスの実質ゼロ化</li>
-      <li>12名が日常利用する基幹システムとして定着</li>
+      <li>転記ミスの大幅削減</li>
     </ul>
   </div>
 </section>
 
 <section>
-  <h2>開発スタンス</h2>
+  <h2>料金</h2>
 
   <div class="box">
     <p>
-      業務は企業ごとに異なります。<br>
-      既製品を当てはめるのではなく、
-      現場に合わせて設計します。
+      業務整理＋仕組み構築
     </p>
-
-    <p>
-      仕組みは、シンプルであるほど強い。<br>
-      継続運用できる構成を前提に開発します。
+    <p class="price">
+      80万円〜
+    </p>
+    <p class="note">
+      ※規模・内容によりお見積りいたします。<br>
+      段階的な導入も可能です。
     </p>
   </div>
 </section>
@@ -170,7 +155,7 @@ margin-top: 20px;
 <section class="contact">
   <h2>お問い合わせ</h2>
   <p>
-    業務を仕組み化したい方は、ご相談ください。
+    まずは現状の業務をお聞かせください。
   </p>
   <a href="mailto:your@email.com">お問い合わせはこちら</a>
 </section>
